@@ -1,0 +1,81 @@
+/* Objeto Selecionavel */
+#feedback {
+	font-size: 1.4em;
+}
+#selectable .ui-selecting {
+	background: #FECA40;
+}
+#selectable .ui-selected {
+	background: #F39814;
+	color: white;
+}
+#selectable {
+	list-style-type: none;
+	margin: 10%;
+	padding: 0%;
+	width: 38%;
+	float: left;
+}
+#selectable li {
+	margin: 1%;
+	padding: 2%;
+	float: left;
+	width: 20%;
+	height: 20%;
+	font-size-adjust: 2.00;
+	text-align: center;
+}
+
+/* Objeto Arrastável */
+#draggable {
+	list-style-type: none;
+	margin-top: 10%;
+	margin-left: 20%;
+	padding: 0;
+	width: 38%;
+	float: left;
+	/*margin: 10px 10px 10px 0;*/
+}
+
+#draggable li {
+	margin: 1%;
+	padding: 2%;
+	float: left;
+	width: 20%;
+	height: 20%;
+	font-size-adjust: 2.00;
+	text-align: center;
+}
+
+/* Objeto Dropável */
+#droppable {
+	list-style-type: none;
+	margin-top: 10%;
+	margin-left: 20%;
+	padding: 0;
+	width: 450px;
+	float: left;
+	height: 0;
+}
+
+#droppable li {
+	margin: 3px;
+	padding: 10px;
+	float: left;
+	width: 100px;
+	height: 80px;
+	font-size: 4em;
+	text-align: center;
+}
+
+/* Button */
+
+.wrapper {
+	text-align: center;
+}
+
+.button {
+	position: absolute;
+	top: 80%;
+	right: 47%;
+}

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery UI Selectable - Display as grid</title>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script>
+  $(function() {
+    $( "#selectable" ).selectable();
+    $( "#draggable1" ).draggable({ revert: "invalid" });
+    $( "#draggable2" ).draggable({ revert: "invalid" });
+    $( "#draggable3" ).draggable({ revert: "invalid" });
+    $( "#draggable4" ).draggable({ revert: "invalid" });
+    $( "#draggable5" ).draggable({ revert: "invalid" });
+    $( "#draggable6" ).draggable({ revert: "invalid" });
+    $( "#draggable7" ).draggable({ revert: "invalid" });
+    $( "#draggable8" ).draggable({ revert: "invalid" });
+    $( "#draggable9" ).draggable({ revert: "invalid" });
+    $( "#draggable10" ).draggable({ revert: "invalid" });
+    $( "#draggable11" ).draggable({ revert: "invalid" });
+    $( "#draggable12" ).draggable({ revert: "invalid" });
+    $( "input[type=submit], a, button" )
+      .button()
+      .click(function() {
+        //quando clicar varias coisas acontecerao
+        
+      });
+  });
+  </script>
+</head>
+<body>
+
+<div class="wrapper">
+    <button class="button">A button element</button>
+</div>
+
+ 
+<ol id="selectable">
+  <li class="ui-state-default">1</li>
+  <li class="ui-state-default">2</li>
+  <li class="ui-state-default">3</li>
+  <li class="ui-state-default">4</li>
+  <li class="ui-state-default">5</li>
+  <li class="ui-state-default">6</li>
+  <li class="ui-state-default">7</li>
+  <li class="ui-state-default">8</li>
+  <li class="ui-state-default">9</li>
+  <li class="ui-state-default">10</li>
+  <li class="ui-state-default">11</li>
+  <li class="ui-state-default">12</li>
+</ol>
+
+<ol id="draggable">
+  <li id="draggable1" class="ui-state-default">1</li>
+  <li id="draggable2" class="ui-state-default">2</li>
+  <li id="draggable3" class="ui-state-default">3</li>
+  <li id="draggable4" class="ui-state-default">4</li>
+  <li id="draggable5" class="ui-state-default">5</li>
+  <li id="draggable6" class="ui-state-default">6</li>
+  <li id="draggable7" class="ui-state-default">7</li>
+  <li id="draggable8" class="ui-state-default">8</li>
+  <li id="draggable9" class="ui-state-default">9</li>
+  <li id="draggable10" class="ui-state-default">10</li>
+  <li id="draggable11" class="ui-state-default">11</li>
+  <li id="draggable12" class="ui-state-default">12</li>
+</ol>
+
+</body>
+</html>
